@@ -1,0 +1,28 @@
+version: 2
+builds:
+  - main: .
+    binary: grind
+    ldflags:
+      - -s -w -X main.version={{.Version}}
+    goos:
+      - darwin
+      - linux
+    goarch:
+      - amd64
+      - arm64
+
+brews:
+  - repository:
+      owner: warike
+      name: homebrew-tools
+    homepage: https://github.com/warike/grind
+    description: "Stoic quotes CLI — your daily philosophical grind"
+    license: MIT
+    install: |
+      bin.install "grind"
+
+archives:
+  - format: tar.gz
+
+changelog:
+  sort: asc
