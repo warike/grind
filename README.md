@@ -43,7 +43,7 @@ grind --short 300
 
 ## Dataset
 
-1,720 deduplicated quotes sourced from [Stoic Quotes (Kaggle)](https://www.kaggle.com/datasets/tejasnisar/stoic-quotes), originally scraped from Goodreads.
+1,720 deduplicated quotes sourced from [Stoic Quotes](https://www.kaggle.com/datasets/tejasnisar/stoic-quotes) by [Tejas Nisar](https://www.kaggle.com/tejasnisar) on Kaggle, originally scraped from Goodreads.
 
 | Author | Quotes |
 |---|---|
@@ -51,3 +51,7 @@ grind --short 300
 | Marcus Aurelius | 672 |
 | Epictetus | 301 |
 | Cleanthes | 1 |
+
+## License
+
+MIT — see [LICENSE](LICENSE). Dataset is CC0 1.0 Universal.
