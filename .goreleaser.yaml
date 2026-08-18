@@ -15,6 +15,7 @@ brews:
   - repository:
       owner: warike
       name: homebrew-tools
+    directory: Formula
     homepage: https://github.com/warike/grind
     description: "Stoic quotes CLI — your daily philosophical grind"
     license: MIT
